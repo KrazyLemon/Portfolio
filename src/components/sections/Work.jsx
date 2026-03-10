@@ -27,7 +27,7 @@ export default function Work() {
 
 
     return (
-        <div id="work" className="flex flex-col justify-center items-center md:w-3/4 w-11/12 h-screen md:h-[720px] mb-10 mx-auto ">
+        <div id="work" className="flex flex-col justify-center items-center md:w-3/4 w-11/12 h-screen mb-10 mx-auto ">
                 <h1 className="text-5xl overflow-hidden py-3 font-bold z-30 text-white">{t("work")}</h1>
                 <h2 className="text-xl overflow-hidden font-light pb-2 text-white">{t("work_subtitle")}</h2>
                 <div className="h-8/12 md:h-[720px] w-full border border-white/20 bg-white/10 rounded-xl shadow-lg">

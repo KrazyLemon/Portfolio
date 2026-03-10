@@ -44,7 +44,7 @@ export default function Slide({ slide, handleModalButton }) {
                         <div className="flex flex-wrap gap-2">
                             {technologies.map((tech, index) => (
                                 <span key={index}
-                                    className="bg-white/10 py-1 px-2 text-xs md:text-sm font-light text-white rounded">
+                                    className="bg-black/50 py-1 px-2 text-xs md:text-sm font-light text-white rounded">
                                     {tech}
                                 </span>
                             ))}
