@@ -1,16 +1,96 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a personal portfolio website built with **React** and **Vite**. It showcases projects, skills, and contact information using a clean, responsive design.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern tech stack:** React with Vite for fast development and build times.
+- **Responsive layout:** Sections for About, Work, Contact, and more.
+- **Reusable UI components:** Buttons, modals, slideshows, forms, etc.
+- **Multi-language support:** Configured with [i18next](./src/i18next.js).
+- **Smooth scrolling** and interactive elements.
 
-## React Compiler
+## 📁 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+src/
+  App.jsx
+  main.jsx
+  i18next.js
+  index.css
+  assets/
+  components/
+    sections/
+      About.jsx
+      Contact.jsx
+      Footer.jsx
+      Hero.jsx
+      Navbar.jsx
+      Work.jsx
+    ui/
+      Button.jsx
+      ContactForm.jsx
+      Link.jsx
+      Modal.jsx
+      Selector.jsx
+      Skill.jsx
+      Slide.jsx
+      SlideShow.jsx
+      TopButton.jsx
+```
 
-## Expanding the ESLint configuration
+The `public/` folder holds static files served by Vite.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Setup & Development
+
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+2. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+4. **Preview the production build**
+   ```bash
+   npm run preview
+   ```
+
+5. **Deploy**
+   Adjust `package.json` scripts or use your preferred hosting platform (Netlify, Vercel, GitHub Pages, etc.).
+
+## 📦 Dependencies
+
+Major dependencies include:
+- react
+- react-dom
+- vite
+- i18next
+- react-i18next
+
+Refer to `package.json` for the full list.
+
+## 📝 Customization
+
+- **Styles:** Global styles in `index.css`; component-specific styles scoped within components.
+- **Translations:** Add new languages by editing `src/i18next.js` and providing resource files.
+- **Components:** Reusable UI elements make it easy to extend the site.
+
+## 🤝 Contributing
+
+This is a personal project, but contributions or suggestions are welcome. Feel free to open an issue or submit a pull request.
+
+## 📄 License
+
+Specify your license here (e.g., MIT).
+
+---
+
+*Last updated: March 10, 2026*
