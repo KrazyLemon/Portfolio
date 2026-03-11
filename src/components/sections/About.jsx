@@ -22,12 +22,12 @@ export default function About() {
 
 
     return (
-        <div id="about" className="flex flex-col justify-center items-center w-11/12 md:w-3/4 md:h-screen  mx-auto ">
+        <div id="about" className="flex flex-col justify-center items-center w-11/12 md:w-3/4 mx-auto ">
             <h1 className="text-5xl overflow-hidden py-3 font-bold z-40 text-white">{t("about")}</h1>
             <h2 className="text-xl overflow-hidden font-light text-center pb-2 text-white ">{t("about_subtitle")}</h2>
-            <div className="flex flex-col md:flex-row w-full gap-4">
+            <div className="flex flex-col md:flex-row w-full gap-4 h-10/12">
                 {/* About Me Izq */}
-                <div className="relative h-130 w-full md:w-1/3 md:h-full bg-white/10 backdrop-blur-xl border border-white/10 shadow-lg rounded-2xl text-white flex flex-col items-end">
+                <div className="relative h-125 w-full md:w-1/3 md:h-162 bg-white/10 backdrop-blur-xl border border-white/10 shadow-lg rounded-2xl text-white flex flex-col items-end">
                     <img src={Img2} alt="foto" className="p-2 rounded-2xl shadow-lg object-cover w-full h-full" />
                     <form className="absolute w-full h-full p-4 flex flex-col items-center justify-end  bg-linear-to-t from-black/90 to-black/0 rounded-2xl">
                         {
@@ -64,8 +64,8 @@ export default function About() {
                     </form>
                 </div>
                 {/* About Me Der */}
-                <div className="h-full w-full md:w-full p-2 bg-white/10 backdrop-blur-xl border border-white/10 shadow-lg rounded-2xl text-white items-end">
-                    <div className="w-full h-fit p-4 flex flex-col">
+                <div className="h-full w-full py-2 px-4 bg-white/10 backdrop-blur-xl border border-white/10 shadow-lg rounded-2xl text-white items-end">
+                    <div className="w-full h-fit flex flex-col">
                         <h1 className="w-full font-semibold flex justify-center md:justify-end text-2xl md:text-3xl text-white">
                             {t("education")}
                         </h1>
@@ -89,8 +89,8 @@ export default function About() {
                             </li>
                         </ul>
                     </div>
-                    <div className="w-full h-fit p-4 flex flex-col">
-                        <h1 className="w-full font-semibold flex justify-center text-2xl md:text-3xl text-white">
+                    <div className="w-full h-fit  flex flex-col">
+                        <h1 className="w-full font-semibold flex justify-center text-2xl md:text-3xl text-white mt-2">
                             {t("certifications")}
                         </h1>
                         <ul className="w-full grid grid-cols-1 md:grid-cols-2 gap-3 mt-2">
@@ -107,9 +107,8 @@ export default function About() {
                             </li>
                         </ul>
                     </div>
-                    <h1 className="w-full font-semibold p-4 flex justify-center text-2xl md:text-3xl text-white">{t("skills")}</h1>
-                    <h4 className="w-full mx-auto justify-start my-1 hidden text-xl overflow-hidden px-4 md:flex ">Backend</h4>
-                    <ul className="w-full h-fit px-4 grid grid-cols-2 md:grid-cols-8 gap-2">
+                    <h1 className="w-full font-semibold flex justify-center md:justify-start text-2xl md:text-3xl text-white mt-2">{t("skills")}</h1>
+                    <ul className="w-full h-fit grid grid-cols-2 md:grid-cols-8 gap-2 mt-2">
                         <li className="bg-white/10 backdrop-blur-xl border col-span-3 border-white/10 shadow-lg rounded-2xl text-white p-2 ">
                             <h6 className="text-sm font-light mb-1">{t("progamming")}</h6>
                             <div className="flex justify-around items-center">
@@ -158,11 +157,7 @@ export default function About() {
                             </div>
                         </li>
                     </ul>
-                    <div className="w-full mx-auto justify-around my-1 hidden text-xl overflow-hidden px-4 md:flex " >
-                        <h4>Frontend</h4>
-                        <h4>CI / CD</h4>
-                    </div>
-                    <ul className="w-full h-fit p-2 px-4 md:pt-0 grid grid-cols-2 md:grid-cols-8 gap-2">
+                    <ul className="w-full h-fit grid grid-cols-2 md:grid-cols-8 gap-2 mt-2">
                         <li className="bg-white/10 backdrop-blur-xl border col-span-2 border-white/10 shadow-lg rounded-2xl text-white p-2 ">
                             <h6 className="text-sm font-light mb-1">Frontend</h6>
                             <div className="flex justify-around items-center">
@@ -211,7 +206,7 @@ export default function About() {
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div>  
             </div>
         </div>)
 }
