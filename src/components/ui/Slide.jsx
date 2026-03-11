@@ -27,7 +27,7 @@ export default function Slide({ slide, handleModalButton }) {
                         </a>
                     ) : (
                         <span className="flex rounded-full items-center gap-2 py-2 px-2 text-white cursor-not-allowed bg-white/10 backdrop-blur-xl border border-white/10">
-                            <Icon icon="iconoir:warning-triangle" width="24" height="24" />
+                            <Icon icon="iconoir:warning-triangle" width="24" height="24" /> {t("under_development")}
                         </span>
                     )}
                 </div>

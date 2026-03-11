@@ -33,6 +33,9 @@ i18next.use(initReactI18next).init({
                 p4_title: "User and Task REST API",
                 p4_desc: "This project is a REST API developed with Spring Boot and Spring Security that allows managing users and their associated tasks." +
                     " It implements authentication and authorization with JWT. Orchestrated with Docker. This API currently does not have a user interface as it is under development.",
+                p5_title: "Water treatment plant monitoring system",
+                p5_desc: "This project is a monitoring system for a water treatment plant developed with React, Java, Docker, AWS, and Nginx." + 
+                "It allows real-time monitoring of the plant's operations and provides insights into the water treatment process.",
                 about_subtitle: "A Passionate Developer Crafting Digital Experiences",
                 about_desc: "Hello! I'm Angel Velazquez, a dedicated Fullstack Developer with a passion for creating innovative digital solutions. With a strong foundation in both " +
                     "frontend and backend technologies, I specialize in building responsive and user-friendly web applications.  Let's connect and create something amazing together!",
@@ -58,6 +61,7 @@ i18next.use(initReactI18next).init({
                 email_placeholder: "example@email.com",
                 message_placeholder: "Your Message",
                 coming_soon: "Coming Soon",
+                under_development: "Under Development",
             }
         },
         es: {
@@ -84,6 +88,9 @@ i18next.use(initReactI18next).init({
                 p4_desc: "Este proyecto es una API Rest desarrollada con Spring boot y Spring Security que permite gestionar usuarios y sus tareas " +
                     "asociadas. implementa autenticacion y autorizacion con JWT. Orquestrado con Docker. Actualmente esta API no cuenta con una interfaz " +
                     "de usuario ya que se encuentra en desarrollo.",
+                p5_title: "Sistema de monitoreo para planta de tratamiento de agua",
+                p5_desc: "Este proyecto es un sistema de monitoreo para una planta de tratamiento de agua desarrollado con React, Java, Docker, AWS y Nginx." + 
+                "Permite monitorear en tiempo real las operaciones de la planta y proporciona información sobre el proceso de tratamiento de agua.",
                 about_subtitle: "Un Desarrollador Apasionado Creando Experiencias Digitales",
                 about_desc: " ¡Hola! Soy Angel Velazquez, un desarrollador Fullstack dedicado con pasión por crear soluciones digitales innovadoras. Con una sólida base en tecnologías " +
                     "tanto de frontend como de backend, me especializo en construir aplicaciones web responsivas y fáciles de usar. Mi experiencia incluye trabajar con frameworks como React" +
@@ -110,6 +117,7 @@ i18next.use(initReactI18next).init({
                 message_placeholder: "Tu Mensaje",
                 coming_soon: "Próximamente",
                 progamming:"Lenguajes de Programación",
+                under_development: "En Desarrollo",
             }
         }
     }

@@ -6,6 +6,7 @@ import img1 from "../../assets/p1.PNG";
 import img2 from "../../assets/p2.PNG";
 import img3 from "../../assets/p3.PNG";
 import img4 from "../../assets/p4.PNG";
+import img5 from "../../assets/p5.PNG";
 
  
 export default function Work() {
@@ -33,6 +34,14 @@ export default function Work() {
                 <div className="h-8/12 md:h-[720px] w-full border border-white/20 bg-white/10 rounded-xl shadow-lg">
                     <SlideShow
                         slides={[
+                            {
+                                image: img5,
+                                title: t("p5_title"),
+                                description: t("p5_desc"),
+                                technologies: ["React", "Java", "Docker", "AWS", "Nginx"],
+                                link: "",
+                                bgColor: "bg-ambar-700"
+                            },
                             {
                                 image: img1,
                                 title: t("p1_title"),
