@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Button from "../ui/Button";
-import banner from "../../assets/img001.jpg";
+import banner from "../../assets/img001.webp";
 import resume from "../../assets/resume.pdf";
 export default function Hero() {
 

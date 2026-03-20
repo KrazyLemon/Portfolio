@@ -2,11 +2,11 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import SlideShow from "../ui/SlideShow";
 import Modal from "../ui/Modal";
-import img1 from "../../assets/p1.PNG";
-import img2 from "../../assets/p2.PNG";
-import img3 from "../../assets/p3.PNG";
-import img4 from "../../assets/p4.PNG";
-import img5 from "../../assets/p5.PNG";
+import img1 from "../../assets/p1.webp";
+import img2 from "../../assets/p2.webp";
+import img3 from "../../assets/p3.webp";
+import img4 from "../../assets/p4.webp";
+import img5 from "../../assets/p5.webp";
 
  
 export default function Work() {

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { useTranslation } from "react-i18next";
-import Img2 from "../../assets/img003.jpg";
+import Img2 from "../../assets/img003.webp";
 
 export default function About() {
     const [isFullDescriptionHidden, setIsFullDescriptionHidden] = useState(true);

@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import Link from "../ui/Link";
 import Selector from "../ui/Selector";
 import { useEffect, useState } from "react";
-import Logo from "../../assets/icon.png"; 
+import Logo from "../../assets/icon.webp"; 
 
 export default function Navbar() {
     const { t, i18n } = useTranslation();
