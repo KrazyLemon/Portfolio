@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Button from "../ui/Button";
-import banner from "../../assets/img001.webp";
+import banner from "../../assets/img001.avif";
 import resume from "../../assets/resume.pdf";
 export default function Hero() {
 
@@ -37,7 +37,6 @@ export default function Hero() {
                         alt="banner"
                         className="w-48 md:w-9/12 md:h-[720px] object-cover rounded-xl shadow-xl"
                     />
-
                 </div>
             </div>
     );
